@@ -5,7 +5,10 @@
 }
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap",
+            "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
 html {
   font-size: 100%;
 } /*16px*/
@@ -42,8 +45,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts  */
-  --headingFont: 'Roboto', sans-serif;
-  --bodyFont: 'Nunito', sans-serif;
+  --headingFont: 'Raleway', sans-serif;
+  --bodyFont: 'Raleway', sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
@@ -95,27 +98,34 @@ h5 {
 h1 {
   margin-top: 0;
   font-size: 3.052rem;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2 {
   font-size: 2.441rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 h3 {
   font-size: 1.953rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 h4 {
   font-size: 1.563rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 h5 {
   font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 small,
 .text-small {
   font-size: var(--smallText);
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -744,3 +754,8 @@ Recipe Template
   color: var(--primary-500);
   text-transform: capitalize;
 }
+
+body {
+  background-color: #FFFFF0;
+}
+
