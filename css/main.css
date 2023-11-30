@@ -23,7 +23,7 @@ html {
   --primary-400: #837dff;
   --primary-500: #ff646c;
   --primary-600: #504acc;
-  --primary-700: #FF4B54;
+  --primary-700: #ff4b54;
   --primary-800: #282566;
   --primary-900: #141233;
 
@@ -47,8 +47,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts  */
-  --headingFont: 'Raleway', sans-serif;
-  --bodyFont: 'Raleway', sans-serif;
+  --headingFont: "Raleway", sans-serif;
+  --bodyFont: "Raleway", sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
@@ -101,33 +101,33 @@ h1 {
   margin-top: 0;
   font-size: 3.052rem;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h2 {
   font-size: 2.441rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h3 {
   font-size: 1.953rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h4 {
   font-size: 1.563rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h5 {
   font-size: 1.25rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 small,
 .text-small {
   font-size: var(--smallText);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -416,7 +416,7 @@ Hero
   height: 40vh;
   position: relative;
   margin-bottom: 2rem;
-  background: url('../assets/main.jpeg') center/cover no-repeat;
+  background: url("../assets/main.jpeg") center/cover no-repeat;
   border-radius: var(--borderRadius);
 }
 .hero-container {
